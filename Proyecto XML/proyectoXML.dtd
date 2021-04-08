@@ -1,0 +1,12 @@
+<!-- DTD de un lenguaje XML (XHTML)-->
+
+<!ELEMENT ruta (nombre, descripcion, color, anchura, coordenadas)>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT anchura (#PCDATA)>
+<!ELEMENT coordenadas (latlon)*>
+
+<!ELEMENT latlon (#PCDATA)>

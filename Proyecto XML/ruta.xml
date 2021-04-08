@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="proyectoXML.xsl" type="text/xsl" ?>
+<!DOCTYPE html SYSTEM "proyectoXML.dtd">
+
+<ruta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="proyectoXML.xsd">
+	<nombre>Alicante - Murcia</nombre>
+	<descripcion>Ruta entre Alicante y Murcia</descripcion>
+	<color>0000ffaa</color>
+	<anchura>4</anchura>
+	<coordenadas>
+		<latlon>39.08, -0.12</latlon>
+		<latlon>38.56, -0.15</latlon>
+	</coordenadas>
+</ruta>
